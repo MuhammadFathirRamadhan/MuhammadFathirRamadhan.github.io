@@ -43,9 +43,21 @@
        <!--- song duration part --->
         <div class="duration">
            <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
-           <button id="auto" onclick="autoplay_switch()">Auto &nbsp;<i class="fa fa-circle-o-notch" aria-hidden="true"></i></button>
+           <div class="box">
+            <a class="button" href="#popup1">Lyrics</a>
+          </div>
+          <div id="popup1" class="overlay">
+            <div class="popup">
+              <h2>MAAF!</h2>
+              <a class="close" href="#">&times;</a>
+              <div class="content">
+                Mohon maaf belum sempat menambahkan lyrics masih blm nemu logikanya
+              </div>
+            </div>
+          </div>
         </div>
            
+        
   	</div>
 
 
